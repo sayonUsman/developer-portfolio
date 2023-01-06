@@ -6,14 +6,17 @@
 
 header{
     height: 845px;
-    background-color: FFF8F3;
+    background-color: #FFF8F3;
+    background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 45px center, bottom right;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 175px 25px 125px;
+    padding: 35px 165px 25px 195px;
 }
 
 .nav-title {
