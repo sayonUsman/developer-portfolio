@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 165px 25px 195px;
+    padding: 35px 225px 0px 195px;
 }
 
 .nav-title {
@@ -44,8 +44,53 @@ nav ul > li{
     background-color: #FD6E0A;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 21px;
     border-radius: 4px;
-    padding: 10px 21px;
+    padding: 8px 25px 10px;
 }
 
+.banner{
+    position: relative;
+    padding: 40px 0px 0px 195px;
+}
+
+.banner-content{
+    position: absolute;
+    top: 175px;
+}
+
+.banner-content h3{
+    color: rgb(65, 64, 64);
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-content h2{
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.banner-content p{
+    font-size: 11px;
+}
+
+.hardy-img{
+    position: absolute;
+    top: 39px;
+    left: 645px;
+}
+
+.download-btn{
+    font-size: 13px;
+}
+
+.contact-btn{
+    color:#FD6E0A;
+    background-color: #FFF8F3;
+    font-size: 13px;
+    border: 1.5px solid #FD6E0A;
+}
+
+.banner-content button{
+    margin-right: 21px;
+}
