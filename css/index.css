@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header style start */
 header{
     height: 845px;
     background-color: #FFF8F3;
@@ -11,7 +12,7 @@ header{
     background-repeat: no-repeat;
     background-position: 45px center, bottom right;
 }
-
+/* nav bar style start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -47,10 +48,11 @@ nav ul > li{
     border-radius: 4px;
     padding: 8px 25px 10px;
 }
+/* nav bar style end */
 
+/* banner style start */
 .banner{
     display: flex;
-    position: flex-end;
     padding: 40px 0px 0px 195px;
 }
 
@@ -91,4 +93,45 @@ nav ul > li{
 
 .banner-content button{
     margin-right: 21px;
+}/* banner style end */
+/* header style end */
+
+/* about section style start */
+#about{
+    width: 1145px;
+    height: 550px;
+    background-color: #faeadd;
+    margin: 175px auto;
+    border-radius: 15px;
 }
+
+#about h1{
+    padding-top: 91px;
+    padding-left: 465px;
+    font-weight: 1200;
+    font-size: 45px;
+}
+
+.text-color{
+    color: #757575;
+}
+
+.basic-text-design{
+    font-weight: 700;
+    font-size: 21px;
+}
+
+#about-text{
+    padding: 45px 125px 57px 145px;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 149px 0px 105px;
+}
+
+#info ul{
+    list-style: none;
+}
+/* about section style end */
