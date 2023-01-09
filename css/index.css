@@ -12,6 +12,7 @@ header{
     background-repeat: no-repeat;
     background-position: 45px center, bottom right;
 }
+
 /* nav bar style start */
 nav{
     display: flex;
@@ -96,8 +97,8 @@ nav ul > li{
 }/* banner style end */
 /* header style end */
 
-/* about section style start */
-#about{
+/* about and skill section style start */
+.basic-section-design{
     width: 1145px;
     height: 550px;
     background-color: #faeadd;
@@ -105,9 +106,9 @@ nav ul > li{
     border-radius: 15px;
 }
 
-#about h1{
+#about, #skill>h1{
     padding-top: 91px;
-    padding-left: 465px;
+    text-align: center;
     font-weight: 1200;
     font-size: 45px;
 }
@@ -121,7 +122,7 @@ nav ul > li{
     font-size: 21px;
 }
 
-#about-text{
+#about-text, #skill-text{
     padding: 45px 125px 57px 145px;
 }
 
@@ -134,4 +135,31 @@ nav ul > li{
 #info ul{
     list-style: none;
 }
-/* about section style end */
+
+#skill{
+    height: 625px;
+    background-color: white; 
+}
+
+#skill > h1{
+    padding-top: 0px;
+}
+
+#skill-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-card-design{
+    width: 267px;
+    height: 377px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 7px 7px 10px #FD6E0A;
+    padding: 35px;
+}
+
+.basic-card-design h1{
+    padding: 25px 0px 31px;
+}
+/* about and skill section style end */
