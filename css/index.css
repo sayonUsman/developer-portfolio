@@ -58,7 +58,7 @@ nav ul > li{
 }
 
 .banner-content{
-    top: 175px;
+    padding-top: 145px;
 }
 
 .banner-content h3{
@@ -68,12 +68,16 @@ nav ul > li{
 }
 
 .banner-content h2{
-    font-weight: 800;
-    font-size: 55px;
+    font-weight: 1200;
+    font-size: 72px;
 }
 
 .banner-content p{
-    font-size: 11px;
+    font-size: 17px;
+}
+
+.text-color{
+    color: #757575;
 }
 
 .hardy-img{
@@ -111,10 +115,6 @@ nav ul > li{
     text-align: center;
     font-weight: 1200;
     font-size: 45px;
-}
-
-.text-color{
-    color: #757575;
 }
 
 .basic-text-design{
