@@ -183,7 +183,11 @@ nav ul > li{
     padding-bottom: 15px;
 }
 
-.basic-resume-design h3, p{
+.basic-resume-design>h3{
+    padding-bottom: 25px;
+}
+
+.basic-resume-design>p{
     padding-bottom: 25px;
 }
 
