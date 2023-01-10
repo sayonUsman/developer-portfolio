@@ -163,3 +163,33 @@ nav ul > li{
     padding: 25px 0px 31px;
 }
 /* about and skill section style end */
+
+/* resume section style start */
+#resume-heading{
+    text-align: center;
+    font-weight: 1200;
+    font-size: 45px;
+}
+
+#resume{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-top: 105px;
+}
+
+#education>h1{
+    font-size: 31px;
+    padding-bottom: 15px;
+}
+
+.basic-resume-design h3, p{
+    padding-bottom: 25px;
+}
+
+#experience>h1{
+    font-size: 31px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+/* resume section style end */
