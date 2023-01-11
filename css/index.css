@@ -197,3 +197,80 @@ nav ul > li{
     padding-bottom: 15px;
 }
 /* resume section style end */
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding: 75px 0px 125px;
+}
+
+#download-btn-II{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 19px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 8px 25px 10px;
+}
+
+.download-icon{
+    padding-right: 15px;
+}
+
+footer{
+    height: 725px;
+    display: flex;
+    justify-content: left;
+    background-color: #faeadd;
+
+}
+
+#contact, #message{
+    padding: 125px 175px 0px 145px;
+}
+
+#contact>h1{
+    font-weight: 1200;
+    font-size: 31px;
+}
+
+#message>h1{
+    font-weight: 1200;
+    font-size: 31px;
+}
+
+#icons{
+    padding-top: 31px;
+}
+
+#icons img{
+    padding-right: 25px;
+}
+
+.text{
+    width: 375px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+#sms{
+    margin: 25px 0px 45px;
+    width: 375px;
+    height: 115px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+#submit-btn{
+    height: 41px;
+    font-size: 19px;
+    background-color: black;
+}
